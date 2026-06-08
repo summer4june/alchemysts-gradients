@@ -165,7 +165,7 @@ body {
     0 8px 32px rgba(0, 0, 0, 0.1),
     inset 0 0 60px 30px rgba(0, 0, 0, 1);
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .nav-logo {
@@ -270,8 +270,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6rem 1rem 1rem;
-  height: 100vh;
+  padding: 8rem 1rem 2rem; /* Increased top padding to prevent overlap */
+  min-height: 100vh; /* Changed from height to min-height */
   box-sizing: border-box;
   position: relative;
 }
@@ -290,7 +290,7 @@ body {
 }
 
 .section-title {
-  font-size: 4.5rem;
+  font-size: clamp(2.5rem, 6vw, 4.5rem); /* Dynamic shrinking font */
   font-weight: 300;
   letter-spacing: -2px;
   margin-bottom: 1.25rem;
@@ -301,7 +301,7 @@ body {
 
 .section-subtitle {
   color: var(--text-secondary);
-  font-size: 1.15rem;
+  font-size: clamp(0.95rem, 2vw, 1.15rem); /* Dynamic shrinking font */
   font-weight: 300;
   line-height: 1.6;
 }
