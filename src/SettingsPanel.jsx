@@ -100,11 +100,6 @@ export const SettingsPanel = ({
           />
         </div>
 
-        <div className="code-block-wrapper">
-          <pre className="code-block">
-            <code>{generatedCSS}</code>
-          </pre>
-        </div>
 
         <button className={`btn-copy ${copied ? 'copied' : ''}`} onClick={handleCopy}>
           {copied ? <><Check size={16} /> Copied</> : 'Copy CSS'}
