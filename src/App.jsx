@@ -15,7 +15,17 @@ const gradients = [
   { id: 'theme-electric-midnight', name: '7. Electric Midnight' },
   { id: 'theme-magenta-overdrive', name: '8. Magenta Overdrive' },
   { id: 'theme-shimmer-void', name: '9. Shimmer Void' },
-  { id: 'theme-cherry-steel', name: '10. Cherry Steel' }
+  { id: 'theme-cherry-steel', name: '10. Cherry Steel' },
+  { id: 'theme-brushed-silver', name: '11. Brushed Silver' },
+  { id: 'theme-chrome-steel', name: '12. Chrome Steel Strip' },
+  { id: 'theme-classic-gold', name: '13. Classic Gold Bar' },
+  { id: 'theme-rose-gold', name: '14. Rose Gold Plate' },
+  { id: 'theme-gunmetal-titanium', name: '15. Gunmetal Titanium' },
+  { id: 'theme-gunmetal-strip', name: '16. Gunmetal Strip' },
+  { id: 'theme-obsidian-copper', name: '17. Obsidian Copper' },
+  { id: 'theme-midnight-titanium', name: '18. Midnight Titanium' },
+  { id: 'theme-noir-steel-violet', name: '19. Noir Steel Violet' },
+  { id: 'theme-carbon-blue-alloy', name: '20. Carbon Blue Alloy' }
 ];
 
 const fontsList = [
