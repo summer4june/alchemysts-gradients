@@ -155,18 +155,17 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  /* Card Glassmorphism Settings */
-  background: rgba(5, 5, 10, var(--glass-refraction, 0.18));
-  backdrop-filter: blur(var(--glass-blur, 10px));
-  -webkit-backdrop-filter: blur(var(--glass-blur, 10px));
-  border-radius: 24px;
-  /* More pill-like */
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.02),
-    inset 0 0 calc(var(--glass-depth, 19px) * 2) var(--glass-depth, 19px) rgba(0, 0, 0, var(--glass-depth-alpha, 0.19));
+  /* Custom Navbar Glassmorphism */
+  background: rgba(5, 5, 10, 0.4);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 0 60px 30px rgba(0, 0, 0, 1);
+  position: relative;
+  overflow: hidden;
 }
 
 .nav-logo {

@@ -111,7 +111,7 @@ function App() {
   const [isSettingsPanelOpen, setIsSettingsPanelOpen] = useState(true);
   const [blurValue, setBlurValue] = useState(43);
   const [refraction, setRefraction] = useState(0.88);
-  const [depth, setDepth] = useState(19);
+  const [depth, setDepth] = useState(90);
 
   useEffect(() => {
     document.body.className = theme;
