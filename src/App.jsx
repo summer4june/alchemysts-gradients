@@ -26,6 +26,8 @@ const fontsList = [
   { id: 'font-dystopian', name: 'SD Dystopian', cssVar: "'SD Dystopian', sans-serif" }
 ];
 
+import logoImg from './assets/logo.avif';
+
 const Navbar = ({ currentTheme, onThemeSelect, currentFont, onFontSelect, onSettingsClick }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isFontOpen, setIsFontOpen] = useState(false);
@@ -34,7 +36,7 @@ const Navbar = ({ currentTheme, onThemeSelect, currentFont, onFontSelect, onSett
     <nav className="elegant-navbar">
       <div className="nav-container">
         <div className="nav-logo">
-          <img src="/oswqpvwrauZBOqpfMXR1yi5qvIw.avif" alt="Alchemysts Logo" className="logo-img" />
+          <img src={logoImg} alt="Alchemysts Logo" className="logo-img" />
         </div>
         <div className="nav-links-right">
           <div className="theme-selector">
